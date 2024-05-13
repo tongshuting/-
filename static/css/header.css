@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;}
+
+html {
+  height:100%;
+  width:100%;}
+
+body {
+  font: normal 75% sans-serif;
+  width:inherit;
+  line-height: 1.375em;
+  font-family: MiloWeb-Bold, sans-serif;
+  }
+button:active,button:visited{
+	box-shadow:none;}
+
+a{
+text-decoration:none;}
+ul{list-style:none;}
+.clear::after{clear:both;display: block;content: '';}
+/* 设置滚动条的样式 */
+::-ms-scrollbar{width:6px;}
+::-webkit-scrollbar {width:6px;}
+::-webkit-scrollbar:horizontal{height:6px;}
+/* 滚动槽 */
+::-ms-scrollbar-track{background:#ddd;}
+::-webkit-scrollbar-track{background:#ddd;}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb{background:rgba(0, 0, 0, 0.2);border-radius:3px;}
+::-webkit-scrollbar-thumb:window-inactive{border-radius:3px;}
+::-ms-scrollbar-thumb{background:rgba(0, 0, 0, 0.2);border-radius:3px;}
+::-ms-scrollbar-thumb:window-inactive{border-radius:3px;}
+::-webkit-scrollbar-thumb:window-inactive {background: rgba(0,0,0,0.4);}
+::-ms-scrollbar-thumb:window-inactive {background: rgba(0,0,0,0.4);}
+
+.header{
+	height: 200px;
+	background: url(../images/index_bg.jpg) center no-repeat;
+	background-size:cover;
+	left:0px;
+   }
+.header .header-top{
+	position: relative;
+	width: inherit;
+	height: inherit;
+	margin: 0 auto;
+	}
+.header .header-top .header-logo{
+	float: left;
+	height: 100%;
+	width: 300px;
+    color:#1F3A81;
+}
+.header .header-top .header-logo .swufe-logo{
+	width:95px;
+	height:95px;
+	position:absolute;
+	top:40px;
+	left:10px;
+	background:url(../images/swufe-logo.png);
+	}
+.header .header-top .header-logo a{
+	color:#005580;
+	font-family:sans-serif;}
+.header .header-top .header-logo p{
+	color:#fff;
+	font-family:sans-serif;
+	}
+.header .header-top .header-logo .main-title{
+   font-color:white;
+	font-weight:bold;
+	font-size:30px;
+	line-height: 35px;
+    letter-spacing: 1px;
+	position:absolute;
+	left:116px;
+	top:50px;
+	}
+.header .header-top .header-logo .sub-title{
+	position:relative;
+	margin-top:10px;
+	font-size:18px;
+	position:absolute;
+	left:116px;
+	top:80px;}
+.header .header-top .header-menu{
+	float: right;
+	margin-top:30px;
+	width:740px;}
+.header-menu .menu{
+	/* padding: 34px 0; */
+    float: right;
+	height: 82px;}
+.header-menu .menu>li{
+	float: left;
+	padding: 0 16px;}
+/* .header-menu .menu>li.share>div .share-image {
+	display: block;
+	width: 42px;
+	height: 42px;
+	margin: 0 auto;
+}
+
+.header-menu .menu>li.share .name {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+} */
+/* .header-menu .menu>li:not(:last-of-type){
+	border-right:1px solid #e19640;
+	} */
+/* .header-menu .menu>li a{
+	color: #e19640;
+	font-size: 14px;
+	} */
+.header-menu .nav{
+	 display: inline-block;
+	 width: 100%;
+     margin-top: 130px;}
+.header-menu .nav>li{
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	position: relative;}
+.header-menu .nav>li:not(:first-of-type){
+	margin-left: 8px;
+	    padding: 0 8px;}
+.header-menu .nav>li.nav-main a{
+	display: inline-block;
+	width: 23px;
+	height: 28px;
+	background: url(../images/home.png) 0 4px no-repeat;}
+.header-menu .nav>li>a{
+	color: #fff;
+	font-size: 19px;
+	font-weight: bold;}
+.header-menu .nav>li:hover>a{color: #ADD8E6;}
+.header-menu .nav>li:not(:first-of-type):hover {background-color: #F0F8FF;border-top: 3px solid rgb(223,230,231;line-height: 28px;}
+
+
+.header-menu .nav>li .sub-nav{/* box-shadow: 0 5px 8px rgba(0,0,0,0.1); */
+position: absolute;z-index: 100;
+background-color:#F0F8FF;
+table-layout: fixed;
+border-collapse: separate;
+max-width: 1200px;
+display: none;width: 140px;
+left: 0;
+top: 33px;
+height: 42px;}
+.sub-nav .sub-nav-item{display: table-cell;padding-top: 14px;}
+.sub-nav .sub-nav-item>li{float: left;/* height: 42px; */padding: 0 8px;}
+
+
+.sub-nav .sub-nav-item>li:not(:last-of-type) {border-right: 2px solid #fff;}
+
+.sub-nav .sub-nav-item>li a{font-size: 14px;line-height: 14px;display: block;max-width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;text-align:center;font-weight:bold;color: #fff;}
+.sub-nav .sub-nav-item>li a:hover {background: #F0F8FF;color: ##F0F8FF;}
+.sub-nav .sub-nav-item>li.point-to-top{position:relative;height: 0px;}
+.sub-nav .sub-nav-item>li.point-to-top::before{display:inline-block;position:absolute;top: -7px;left: 64px;width: 0;height: 0;border-left: 6px solid transparent;border-right: 6px solid transparent;border-bottom: 8px solid #fff;content:'';}

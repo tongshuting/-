@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" href="swufe-logo.png" />
+        <title>财经交叉融合与数智科学</title><meta name="pageType" content="1">
+<meta name="pageTitle" content="财经交叉融合与数智科学">
+<META Name="keywords" Content="财经交叉融合与数智科学" >
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/header.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/navigation.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/highligted.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/content.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/introduce.css')}}">
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js')}}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.easing.js')}}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/swiper.min.js')}}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/index.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/counter.js')}}"></script>
+</head>
+    <body onload="javascript:swiperMove()">
+        <header class="header">
+            <div class="header-top clear">
+                <div class="header-logo">
+<a href="https://www.swufe.edu.cn/" class="swufe-logo" target="_blank">
+    <img src="{{ url_for('static', filename='images/swufe-logo.png')}}" alt="">
+</a>
+                        <p class="main-title">财经交叉融合与数智科学</p>
+                        <p class="sub-title">Financial Cross-Convergence and
+                            <br>Data Intelligence Science
+                        </p></div>
+                <div class="header-menu">
+                    <div><ul class="nav clear">
+   <li class="nav-main">
+                                <a href="{{ url_for('index')}}" title="首页"></a>
+   </li>
+  <li>
+                                <a href="{{ url_for('teamintroduce')}}" title="团队介绍">团队介绍</a>
+   </li>
+
+  <li>
+                                <a href="{{ url_for('kycg')}}" title="科研成果">科研成果</a>
+   </li>
+
+  <li>
+                                <a href="{{ url_for('jxcg')}}" title="教学成果">教学成果</a>
+   </li>
+
+  <li>
+                                <a href="{{ url_for('xsbs')}}" title="学生比赛">学生比赛</a>
+   </li>
+  <li>
+                                <a href="{{ url_for('xssx')}}" title="学生实训">学生实训</a>
+   </li>
+
+  <li style=" margin-left: 19px;">
+                                <a href="{{ url_for('kyzh')}}" title="科研组会">科研组会</a>
+   </li>
+                        <li style=" margin-left:6px;">
+                         <a href="{{ url_for('work')}}" title="就业去向">就业去向</a>
+    </li>
+</ul></div>
+                </div>
+            </div>
+        </header>
+    <div class="callout-sub">
+        <nav class="breadcrumb" role="navigation">
+            <h2 class="element-invisible">You are here</h2>
+            <ol>   <li>当前位置：</li>
+                    <li>
+                    <a href="{{ url_for('index')}}">首页</a>
+                    <span class="next"></span>
+                </li>
+            <li>
+                    <a href="{{ url_for('teamintroduce')}}">团队介绍</a>
+                <span class="next"></span>
+                </li>
+                <li>
+                    <a href="{{ url_for('wj')}}">王俊</a>
+                </li>
+</ol>
+        </nav>
+    </div>
+        <div class="header-img" style="width: 1200px;">
+                        <img src="{{ url_for('static', filename='images/ysz.png')}}" style="height: 170px; width:1200px;margin-left:30px;">
+
+        </div>
+    <div class="team_intr">
+        <div class="team_con">
+            <div class="team_left">
+                <img src="{{ url_for('static', filename='images/teampicture/wj.jpg')}}" alt="">
+                <h2>王俊</h2>
+                <p>信息管理与信息系统系、计算金融系</p>
+                <p>教授、硕士生导师</p>
+                <p><b>Email：</b>wangjun1987@swufe.edu.cn</p>
+                <div class="parting-line" style="width: 100%"></div>
+            </div>
+            <div class="team_right">
+                <div class="person-sum">
+                    <p>&nbsp; &nbsp; &nbsp; &nbsp;<b style="color:#137bc4;">个人简介：</b>现为西南财经大学管理科学与工程学院教授，硕士生导师，加拿大纽芬兰纪念大学访问学者，西南财经大学金融科技国际联合实验室主任助理，金融智能与金融工程四川省重点实验室副主任，信管系主任，计算金融系主任，四川省计算机学会NLP专业委员会副主任委员，成都市温江区侨联副主席。
+                    </p><p>&nbsp; &nbsp; &nbsp; &nbsp;长期致力于金融科技、金融智能、数智管理等新兴交叉学科研究，从大数据分析视角，通过大机器学习、数据分析、人工智能等方法解决金融市场的重要问题。主要研究包括，融合多模态数据的证券市场、大宗商品市场研究，面向大数据的企业风险、非法金融活动的智能分析与监控研究，基于非结构数据驱动的公司金融与宏观经济研究，金融领域大模型研究等。
+</p><p>&nbsp; &nbsp; &nbsp; &nbsp;近五年，在国内外高水平期刊和会议发表论文30余篇（国家自然科学基金委认定A类重要期刊10余篇），包括IEEE TKDE、Information Science、Applied Soft Computing、KBS、Energy、南开管理评论等，主持四川省自然基金青年项目、四川省教改项目，参与国家科技部重点研发、国家自然科学基金、国家社会科学基金等10余项，申请受理国家发明专利9项，获得软件著作权8项。教育教学方面，在2021-2023期间，教学课程荣获四川省一流本科课程认证，指导学生团队荣获计算机设计大赛四川省一等奖1次、二等奖2次、全国二等奖1次、花旗杯全国二等奖，四川省统计建模大赛四川省二等奖等10多项荣誉。
+</p><p>&nbsp; &nbsp; &nbsp; &nbsp;同时，王俊多次受邀参加国际学术会议（全球信息系统年会-ICIS、亚洲信息系统年会-PACIS、全球管理学顶尖年会-HICSS），前往美国夏威夷、日本东京、韩国首尔、马来西亚兰卡威等地区进行论文发表讲演，还作为IEEE Network Magazine、Information Fusion、Applied Soft Computing、Energy、Journal of Cleaner Production等国际学术期刊的高级评审专家。
+</p><p>&nbsp; &nbsp; &nbsp; &nbsp;团队和实验室长期招收本科科研实训、硕士/博士研究生、博士后。欢迎感兴趣的同学发送简历到我邮箱，我会尽快回复邮件，团队和实验室将会提供非常充足的计算资源。
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+  <div class="footer">
+    <div class="footer-top">
+        <ul class="clear">
+            <li>
+                <h2>友情链接</h2>
+                <p>
+                    <a href="https://gk.swufe.edu.cn/" title="" target="_blank">管理科学与工程学院</a>
+                </p>
+                <p>
+                    <a href="https://fife.swufe.edu.cn/" title="" target="_blank">金融智能与金融工程四川省重点实验室</a>
+                </p>
+                <p>
+                    <a href="http://10.8.23.55:17167/home.html/" title="" target="_blank">作业提交</a>
+                </p>
+            </li>
+            <li><h2>常用下载</h2>
+                <p>
+                    <a href="{{ url_for('static', filename='txt/positive.txt')}}" target="_blank" download="positive.txt">积极情感词</a>
+                </p>
+                <p>
+                    <a href="{{ url_for('static', filename='txt/negative.txt')}}" target="_blank" download="negative.txt">消极情感词</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <ul class="clear list-paddingleft-2">
+            <li><p>西南财经大学@2019 <a href="https://beian.miit.gov.cn/" target="_self">蜀ICP05006386-1号</a>&nbsp;&nbsp;
+                <a href="https://beian.mps.gov.cn/#/query/webSearch?code=51010502010087" target="_self">川公网安备51010502010087号</a>
+            </p></li>
+            <li><p>邮政编码：611130</p></li>
+            <li><p>地址：四川省成都市温江区柳台大道555号</p></li>
+        </ul>
+    </div>
+</div>
+    </body>
+</html>
